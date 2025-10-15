@@ -7,8 +7,8 @@ import json
 
 class TestXmlDataReader:
 
-    @pytest.fixture()
-    def file_and_data_content(self) -> tuple[str, DataType]:
+    #@pytest.fixture()
+    #def file_and_data_content(self) -> tuple[str, DataType]:
         text = '''
         <?xml version="1.0" encoding="UTF-8" ?>
         <root>
