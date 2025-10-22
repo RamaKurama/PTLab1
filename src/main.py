@@ -26,7 +26,7 @@ def main():
     print("Rating: ", rating)
 
     b_student_count = CalcBStudents(students).calc()
-    print("Студентов хорошистов (имеющих баллы по всем предметам >= 76): ", b_student_count)
+    print("Студентов хорошистов (баллы >= 76): ", b_student_count)
 
 
 if __name__ == "__main__":
